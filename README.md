@@ -75,10 +75,14 @@ Wait until Vagrant / Chef are done, then in your browser http://app.local/ or ht
 
 ### Stop the Application
 
-You have the choice of either... Supending the application (takes a small bit more disk space). **Recommended**
+You have the choice of either... Suspending the application (takes a small bit more disk space). **Recommended**
 
 
     $ vagrant suspend
+
+To Resume suspended application:
+
+    $ vagrant resume
 
 
 or.. you can halt the box (saves like 200meg?) but requires you to start it all up again. (You don't have to rebuild the VM)
