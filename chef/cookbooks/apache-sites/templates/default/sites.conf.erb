@@ -8,14 +8,14 @@
   <% end %>
 
   <Directory <%= @params[:docroot] %>>
-    Options FollowSymLinks
+    Options Indexes FollowSymLinks
     AllowOverride All
     Order allow,deny
     Allow from all
   </Directory>
 
   <Directory />
-    Options FollowSymLinks
+    Options Indexes FollowSymLinks
     AllowOverride None
   </Directory>
 
@@ -46,14 +46,14 @@
   <% end %>
 
   <Directory <%= @params[:docroot] %>>
-    Options FollowSymLinks
+    Options Indexes FollowSymLinks
     AllowOverride All
     Order allow,deny
     Allow from all
   </Directory>
 
   <Directory />
-    Options FollowSymLinks
+    Options Indexes FollowSymLinks
     AllowOverride None
   </Directory>
 
