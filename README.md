@@ -35,7 +35,9 @@ This should work on any Windows, OSX, or Linux box.
 
     $ cd mysiterepo
 
-    $ git submodule add git@github.com:ShawnMcCool/vagrant-chef.git
+    $ git init
+
+    $ git submodule add git@github.com:sineld/vagrant-chef.git
 
 
 - Update the submodules within the submodule (inception)
@@ -48,6 +50,7 @@ This should work on any Windows, OSX, or Linux box.
 
 - Copy an example Vagrantfile
 
+    $ cd mysiterepo
 
     $ cp vagrant-chef/vagrant/vagrantfiles/Vagrantfile .
 
@@ -106,3 +109,6 @@ I've made many annotations of issues in the Vagrantfile example, each could use 
 Trying to install this on your system and reporting back any issues that you've had with instructions listed would be a huge help.
 
 Know a bit about Vagrant / Chef and want to complain that something could be done better? Please open an issue!
+
+Created by ShawnMcCool
+https://github.com/ShawnMcCool
